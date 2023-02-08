@@ -1,0 +1,30 @@
+.body_background 
+{
+    background-position: center;
+    background-size:contain;
+	background:url(Grass.jpg);
+}
+#myCanvas
+{
+    border-width:10px;
+    border-style:ridge;
+	background-color:forestgreen;
+}
+
+
+#hd3{
+	display: block;
+	color: red;
+	font-family: fantasy;
+	animation-name: move;
+	animation-duration:move 0.8s linear infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes move{
+ from{
+	transform: translateX(-10px);
+ }
+ to{
+	transform: translateX(10px);
+ }
+}
